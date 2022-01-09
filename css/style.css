@@ -1,0 +1,122 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&display=swap");
+
+header {
+  display: grid;
+  grid-template-columns: 80px auto;
+  align-items: center;
+  background-color: #0f3c43;
+  border-radius: 20px;
+}
+
+.logo-box img {
+  background-color: #0f3c43;
+  padding: 0.5em;
+  margin-left: 15px;
+  width: 200%;
+  margin-top: 5px;
+}
+
+h1 {
+  color: white;
+  padding: 10px;
+  margin-left: 150px;
+  font-family: "IM Fell French Canon SC";
+  font-size: 45px;
+}
+
+#content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 2em;
+}
+
+.home-headline {
+  text-align: center;
+  grid-column: 1 / 6;
+  grid-row: 1 / 1;
+  font-size: 35px;
+  font-family: "Montserrat", "Lato", "open Sans";
+  text-shadow: 3px -3px 10px black;
+}
+
+ul {
+  text-align: center;
+  grid-column: 1 / 4;
+  grid-row: 2 / 5;
+  margin-top: -20px;
+  padding-left:50px;
+}
+
+.span_li {
+  position: relative;
+  left: -90px;
+  font-size: 25px;
+  font-family: "Montserrat", "Lato", "open Sans";
+  font-weight: bold;
+}
+ul li{
+  padding-left:50px;
+  padding: 7px 0px;
+}
+
+#first_hr {
+  border: solid 1px black;
+  width: 600%;
+  height: 1px;
+  background: black;
+  margin-top: -50px;
+  margin-left: -435px;
+}
+
+#second_hr {
+  border: solid 1px black;
+  width: 600%;
+  height: 1px;
+  background: black;
+  margin-top: 450px;
+  margin-left: -585px;
+  margin-bottom: -60px;
+}
+
+#last_paragraph {
+  color: #000000;
+  grid-column: 1 / 6;
+  grid-row: 5;
+  margin-top: -20px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: "Montserrat", "Lato", "open Sans";
+  font-size: 20px;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  background-color: #0f3c43;
+  border-radius: 20px;
+  height: 100px;
+  font-size: 20px;
+  font-family: "Montserrat", "Lato", "open Sans";
+}
+
+#fst_footer_paragraph {
+  color: white;
+  grid-column: 1 / 6;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#sec_footer_paragraph {
+  color: #0ab6ff;
+  grid-column: 1 / 6;
+  margin-top: -5px;
+  text-align: center;
+}
