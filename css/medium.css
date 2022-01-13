@@ -1,0 +1,14 @@
+@media only screen and (min-width: 32.5em) {
+  h1 {
+    font-size: 45px;
+  }
+
+  .home-headline {
+    font-size: 35px;
+  }
+
+  .span_li {
+    left: -90px;
+    font-size: 25px;
+  }
+}
