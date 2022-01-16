@@ -8,21 +8,21 @@ h1 {
   color: white;
   padding: 5px;
   text-align: center;
-  font-family: 'IM Fell French Canon SC', serif;
+  font-family: "IM Fell French Canon SC", serif;
   font-size: 30px;
 }
 
-h2{
+h2 {
   color: white;
   text-align: center;
-  font-family: 'IM Fell French Canon SC', serif;
+  font-family: "IM Fell French Canon SC", serif;
   font-size: 25px;
 }
 
-h3{
+h3 {
   color: white;
   text-align: center;
-  font-family: 'IM Fell French Canon SC', serif;
+  font-family: "IM Fell French Canon SC", serif;
   background-color: #0f3c43;
   border-radius: 15px;
   font-size: 14px;
@@ -34,21 +34,21 @@ h3{
   text-align: center;
 }
 
-main{
+main {
   max-width: 375px;
   display: grid;
   grid-template-columns: 1fr;
 }
 
-.title_p, a{
+.title_p,
+a {
   font-family: "Montserrat", "Lato", "open Sans";
   font-weight: bold;
 }
 
-p{
+p {
   font-family: "Montserrat", "Lato", "open Sans";
 }
-
 
 footer {
   display: grid;

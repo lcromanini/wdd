@@ -1,29 +1,23 @@
-@media only screen and (min-width: 60em){
-    #content {
-        max-width: 970px;
-        margin: 0 auto;
-      }
+@media only screen and (min-width: 60em) {
+  #content {
+    max-width: 970px;
+    margin: 0 auto;
+  }
 
+  h1 {
+    font-size: 45px;
+  }
 
-      h1 {
-        font-size: 45px;
-      }
-    
-      h2 {
-        font-size: 35px;
-      }
-      h3{
-        border-radius: 25px;
-        font-size: 22px;  
-  
-      }
+  h2 {
+    font-size: 35px;
+  }
+  h3 {
+    border-radius: 25px;
+    font-size: 22px;
+  }
 
-
-      
-    main {
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 2em;
-    } 
-    
-    
+  main {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2em;
+  }
 }
