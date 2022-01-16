@@ -19,13 +19,35 @@ h2{
   font-size: 25px;
 }
 
-#content {
-  max-width: 700px;
-  margin: 0 auto;
+h3{
+  color: white;
+  text-align: center;
+  font-family: 'IM Fell French Canon SC', serif;
+  background-color: #0f3c43;
+  border-radius: 15px;
+  font-size: 14px;
 }
 
+#content {
+  max-width: 375px;
+  margin: 0 auto;
+  text-align: center;
+}
 
+main{
+  max-width: 375px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
 
+.title_p, a{
+  font-family: "Montserrat", "Lato", "open Sans";
+  font-weight: bold;
+}
+
+p{
+  font-family: "Montserrat", "Lato", "open Sans";
+}
 
 
 footer {
