@@ -38,7 +38,12 @@ h2 {
 	font-size: 1rem;
 }
 
-h1, h2, nav{
+h3{
+	color: #0f3C43;
+	font-size: 0.9em;
+}
+
+h1, h2,h3, nav{
 font-family: "IM Fell French Canon SC";
 }
 
@@ -76,6 +81,13 @@ main {
 	background-color: #f6eacb;
 }
 
+
+table, th, td {
+  border:1px solid black;
+  padding: 0.5em;
+  margin: 0.3em;
+}
+
 p{
 	font-family: "Montserrat";
 	color:#0f3C43;	
@@ -103,9 +115,17 @@ footer {
 	h2{
 		font-size: 1.4rem;
 	}
+	h3{
+		font-size: 1.3rem;
+	}
 
 	p{
 		font-size: 1.5em;	
+	}
+
+	nav ul li a {
+		font-size: 1.5rem;
+		
 	}
 
 
@@ -132,6 +152,15 @@ footer {
 
 	h2{
 		font-size: 1.8rem;
+	}
+
+	h3{
+		font-size: 1.7rem;
+	}
+
+	nav ul li a {
+		font-size: 1.7rem;
+		
 	}
 
 	main {
