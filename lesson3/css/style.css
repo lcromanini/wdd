@@ -1,0 +1,149 @@
+@charset "UTF-8"; /* not necessary */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+}
+
+
+
+/* phone or baseline views **************************/
+header,
+footer {
+	background-color: #0f3C43;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+
+header,
+nav,
+main,
+footer {
+	max-width: 900px;
+	margin: 0 auto;
+	color:#0ab6ff ;
+}
+h1 {
+	font-size: 1.1rem;
+}
+h2 {
+	color: #0f3C43;
+	font-size: 1rem;
+}
+
+h1, h2, nav{
+font-family: "IM Fell French Canon SC";
+}
+
+nav {
+	background-color: #0f3C43;
+	text-align: center;
+	box-shadow: 0 2px 15px gray;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav ul li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 1.1rem;
+	background: linear-gradient(90deg, transparent, #FFCC57, transparent) top /
+		var(--d, 0) 10px no-repeat;
+	transition: 0.5s;
+}
+
+.active {
+	color: #FFCC57;
+}
+main {
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 0.8rem;
+	text-align: center;
+	background-color: #f6eacb;
+}
+
+p{
+	font-family: "Montserrat";
+	color:#0f3C43;	
+}
+
+img {
+	padding: 0.5em;
+	width: 200px;
+	text-align: center;
+  }
+
+
+footer {
+	height: 3rem;
+	font-family: "Montserrat";
+	font-size: 1em;
+}
+
+/* Tablet Views ******************************/
+@media only screen and (min-width: 37.5em) {
+	h1 {
+		font-size: 1.5rem;
+	}
+
+	h2{
+		font-size: 1.4rem;
+	}
+
+	p{
+		font-size: 1.5em;	
+	}
+
+
+	/* Horizontal Menu Examples */
+	/* Flex *********************/
+			nav ul { display: flex; }
+		nav ul li { flex: 1 1 auto; }
+
+		main {
+			text-align: center;
+			padding: 15px 15px;
+		}
+		footer{
+			font-size: 1.2em;
+		}
+
+}
+
+/* Desktop Views ****************************/
+@media only screen and (min-width: 60em) {
+	h1 {
+		font-size: 2rem;
+	}
+
+	h2{
+		font-size: 1.8rem;
+	}
+
+	main {
+		text-align: center;
+		padding: 20px 20px;
+	}
+
+	p{
+		font-size: 1.7em;	
+	}
+
+	footer{
+		font-size: 1.3em;
+	}
+}
