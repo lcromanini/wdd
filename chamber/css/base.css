@@ -6,7 +6,7 @@ body {
 header{
 	background-color: #0f3C43;
 	padding: 5px 0;
-	display: flex;
+	display: grid;
 	align-items: center;
 	justify-content: space-between;
 	max-width: 900px;
@@ -24,7 +24,6 @@ footer {
 .logo {
 	display: flex;
 	align-items: center;
-	margin-left: 1rem;
 }
 
 .logo img {
@@ -58,9 +57,7 @@ h2{
     font-family: "IM Fell French Canon SC";
 }
 
-.social {
-	margin-right: 1.5rem;
-}
+
 
 .social svg {
 	width: 25px;
@@ -117,12 +114,10 @@ nav {
 
 .date{
 	font-family: 'IM Fell French Canon SC', sans-serif;
-    display: block;
     padding: 0.75rem;
-    background-color: #0f3C43;
 	color: #0ab6ff;
-
-	text-align: center;
+	align-items: center;
+	grid-column: 1/6;
 }
 
 footer {
