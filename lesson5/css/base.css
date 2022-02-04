@@ -35,7 +35,7 @@ button {
 }
 
 input {
-	width: 200px;
+	width: 150px;
 }
 
 label {
@@ -70,5 +70,9 @@ li {
 
 	main {
 		width: 480px;
+	}
+
+	input {
+		width: 200px;
 	}
 }
