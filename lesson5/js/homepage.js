@@ -3,6 +3,10 @@ const input = document.querySelector("input");
 const button = document.querySelector("button");
 
 button.onclick = function () {
+	//Prevent user to input empty lines. 
+	if(input.value.trim() === "") {
+		return;
+	}
 	let myItem = input.value;
 	input.value = "";
 
