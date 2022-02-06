@@ -9,8 +9,14 @@
     grid-template-rows: 150px 150px 150px;
     grid-gap: 1em;
   }
-  main div {
-    padding: 1em;
+ 
+
+  main p{
+	  font-size:0.8em;
+  }
+
+  main h3,h4{
+	font-size:1em; 
   }
 
   header img {
@@ -47,7 +53,7 @@
 
   #hero {
     grid-column: 2/3;
-    grid-row: 1/2;
+    grid-row: 1/3;
   }
 
   #img_hero {
