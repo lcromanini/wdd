@@ -6,69 +6,115 @@
 
   main {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 2em;
+    grid-template-rows: 150px 150px 150px;
+    grid-gap: 1em;
+  }
+  main div {
+    padding: 1em;
   }
 
   header img {
-		width: 100%;
-	}
+    width: 100%;
+  }
 
-	.headings h1 {
-		font-size: 2.5rem;
-		margin: 0;
-	}
+  .headings h1 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
 
-header,
-nav,
-main,
-footer {
-	max-width: 970px;
-	margin: 0 auto;
-}
+  header,
+  nav,
+  main,
+  footer {
+    max-width: 970px;
+    margin: 0 auto;
+  }
 
-	.m, h2 {
-		letter-spacing: 1.5pt;
-		font-size: 1.2rem;
-	}
+  .m,
+  h2 {
+    letter-spacing: 1.5pt;
+    font-size: 1.2rem;
+  }
 
-    .social svg {
-        width: 40px;
-        height: auto;
-    }
+  .social svg {
+    width: 40px;
+    height: auto;
+  }
 
-    .navigation a{
-        font-size: 1.2rem;
-    }
+  .navigation a {
+    font-size: 1.2rem;
+  }
+
+  #hero {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+
+  #img_hero {
+    width: 500px;
+  }
+
+  #event {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  #weather {
+    grid-column: 1;
+    grid-row: 2;
+    padding: 1em;
+  }
+
+  #join {
+    grid-column: 1;
+    grid-row: 3;
+    padding: 1em;
+  }
+
+  #updates {
+    grid-column: 2/3;
+    grid-row: 3;
+  }
+
+  #local1 {
+    grid-column: 3;
+    grid-row: 1;
+  }
+  #local2 {
+    grid-column: 3;
+    grid-row: 2;
+  }
+
+  #local3 {
+    grid-column: 3;
+    grid-row: 3;
+  }
+
   footer {
     display: grid;
     grid-template-columns: 60px 60px;
-    }
+  }
 
-	footer p {
-		font-size: 1rem;
-	}
+  footer p {
+    font-size: 1rem;
+  }
 
+  .adress {
+    grid-column: 3/5;
+    grid-row: 1;
+    padding-left: 2em;
+    align-items: center;
+  }
 
-.adress{
-	grid-column: 3/5;
-	grid-row: 1;
-	padding-left: 2em;
-	align-items: center;
-	
-}
+  .info {
+    grid-column: 5;
+    padding-left: 2em;
+    grid-row: 1;
+  }
 
-.info{
-	grid-column: 5;
-	padding-left: 2em;
-	grid-row: 1;
-	
-}
-
-	#last_paragraph{
-		grid-column: 1/6;
-		grid-row: 2;
-		text-align: center;
-	}
-
-
+  #last_paragraph {
+    grid-column: 1/6;
+    grid-row: 2;
+    text-align: center;
+  }
 }
