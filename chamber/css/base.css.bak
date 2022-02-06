@@ -1,31 +1,7 @@
-
-#content {
-  max-width: 375px;
-  margin: 0 auto;
-  text-align: center;
+body {
+	padding: 0;
+	margin: 0;
 }
-
-main {
-  max-width: 375px;
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
-
-
-p {
-  font-family: "Montserrat";
-}
-
-footer {
-  display: grid;
-  background-color: #0f3c43;
-  font-size: 1rem;
-  font-family: "Montserrat";
-  font-size: x-small;
-}
-
-
 
 header{
 	background-color: #0f3C43;
@@ -35,7 +11,7 @@ header{
 	justify-content: space-between;
 	max-width: 900px;
 	margin: 0 auto;
-  font-family: "IM Fell French Canon SC";
+    font-family: "IM Fell French Canon SC";
 }
 header,
 nav,
@@ -145,10 +121,11 @@ nav {
 }
 
 footer {
-	font-family:"Montserrat";
-  background-color: #0f3C43;
-	display: block;
-  color: #0ab6ff;
+	font-family: "Montserrat";
+    background-color: #0f3C43;
+	display: grid;
+	grid-template-columns: 60px 60px;
+    color: #0ab6ff;
 }
 
 footer img{
@@ -176,6 +153,11 @@ color: white;
 } */
 
 #last_paragraph{
-
+	grid-column: 1/6;
+	grid-row: 2;
 	text-align: center;
 }
+
+
+
+

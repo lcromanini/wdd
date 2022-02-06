@@ -1,21 +1,12 @@
-@media only screen and (min-width: 45em) {
-  #content {
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
-  }
-
-  main {
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2em;
-  }
-
-  header img {
+/* Larger viewports */
+@media only screen and (min-width: 32.5em) {
+	header img {
 		width: 100%;
 	}
 
 	header,
 	nav,
+	main,
 	footer {
 	max-width: 800px;
 	margin: 0 auto;
@@ -44,22 +35,20 @@
 	.navigation li:first-child {
 		display: none;
 	}
-  footer {
-    display: grid;
-    grid-template-columns: 60px 60px;
-    }
+
 	footer p {
 		font-size: 0.8rem;
 	}
 
 	.info{
 		grid-column: 5;
+		padding-left: 3em;
 		grid-row: 1;
 		
 	}
 
 	#last_paragraph{
-		grid-column: 1/6;
+		grid-column: 3/5;
 		grid-row: 2;
 		text-align: center;
 	}
