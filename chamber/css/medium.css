@@ -14,6 +14,14 @@
     width: 100%;
   }
 
+  .social svg {
+    padding: 0.2em;
+  }
+
+  header{
+    display: grid;
+  }
+
   header,
   nav,
   main,
@@ -53,7 +61,7 @@
   }
 
   #img_hero {
-    width: 790px;
+    width: 785px;
   }
 
   #event {

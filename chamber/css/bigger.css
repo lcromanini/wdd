@@ -9,6 +9,10 @@
     grid-template-rows: 150px 150px 150px;
     grid-gap: 1em;
   }
+
+  header{
+    display: grid;
+  }
  
 
   main p{
@@ -57,7 +61,7 @@
   }
 
   #img_hero {
-    width: 500px;
+    width: 450px;
   }
 
   #event {
