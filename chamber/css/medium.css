@@ -14,8 +14,8 @@
     width: 100%;
   }
 
-  .social svg {
-    padding: 0.2em;
+  .social{
+    display: flex;
   }
 
   header{

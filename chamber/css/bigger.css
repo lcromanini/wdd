@@ -46,9 +46,9 @@
     font-size: 1.2rem;
   }
 
-  .social svg {
-    width: 40px;
+  .social{
     height: auto;
+    display: flex;
   }
 
   .navigation a {
