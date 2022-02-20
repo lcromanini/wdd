@@ -22,7 +22,7 @@ window.onresize = () => {
      classList property - https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
      */
 
-const datefieldUK = document.querySelector("date"); // for european/family history format with day first.
+const datefieldUK = document.getElementById("date-time"); // for european/family history format with day first.
 
 // derive the current date using a date object
 const now = new Date();
@@ -30,11 +30,13 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
   dateStyle: "full",
 }).format(now);
 
+datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
+
 var date = new Date();
 var year = date.getUTCFullYear();
 document.querySelector("#copyrightyear").innerHTML = year;
 
-datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
+
 
 document.querySelector(
   "#lastModified"

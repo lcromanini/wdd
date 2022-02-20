@@ -167,9 +167,9 @@ ul.navigation.responsive a:hover{
 .date {
   font-family: "IM Fell French Canon SC", sans-serif;
   padding: 0.75rem;
-  color: #0ab6ff;
   align-items: center;
   grid-column: 1/6;
+  font-size: 0.7rem;
 }
 
 .stats {
