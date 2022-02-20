@@ -21,7 +21,7 @@ main h3,h4{
 	border: 1px solid black;
   }
 
-p {
+p, figcaption{
   font-family: "Montserrat";
   
 }
@@ -213,6 +213,29 @@ ul.navigation.responsive a:hover{
   #local3 {
     grid-row: 8;
   }
+
+
+main.discover{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 25px;
+  justify-items: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+main.discover picture{
+  max-width: 300px;
+}
+
+main.discover picture img[data-src] {
+  filter: blur(0.2em);
+}
+
+main.discover picture img {
+  filter: blur(0em);
+  transition: filter 0.3s;
+}
 
 footer {
   font-family: "Montserrat";

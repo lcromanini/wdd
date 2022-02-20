@@ -6,8 +6,8 @@
 
   main {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 150px 150px 150px;
     grid-gap: 1em;
+    padding-bottom: 20px;
   }
 
   header{
@@ -55,6 +55,17 @@
     font-size: 1.2rem;
   }
 
+  main.discover{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  main.discover h3{
+    grid-column: 1/ -1;
+  }
+
+  main.discover picture:hover{
+    transform: translate(10px, -10px);
+  }
   #hero {
     grid-column: 2/3;
     grid-row: 1/3;
