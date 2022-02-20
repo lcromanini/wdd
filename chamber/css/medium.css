@@ -59,11 +59,13 @@
     grid-template-columns: 1fr 1fr;
   }
 
-  main.discover h3{
+  main.discover h2{
+    font-size: larger;
     grid-column: 1/ -1;
   }
   main.discover picture:hover{
-    transform: translate(10px, -10px);
+    transform: translate(4px, -4px);
+    box-shadow: 0 0 50px #333;
   }
 
   #hero {

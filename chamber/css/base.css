@@ -235,6 +235,11 @@ main.discover picture img[data-src] {
 main.discover picture img {
   filter: blur(0em);
   transition: filter 0.3s;
+  width: 300px; height: 200px; 
+}
+
+main.discover h2{
+  color:#0f3c43;
 }
 
 footer {
