@@ -21,7 +21,7 @@ main h3,h4{
 	border: 1px solid black;
   }
 
-p, figcaption{
+p{
   font-family: "Montserrat";
   
 }
@@ -226,6 +226,11 @@ main.discover{
 
 main.discover picture{
   max-width: 300px;
+}
+
+main.discover picture p{
+  font-family: "Montserrat";
+  font-size: medium;
 }
 
 main.discover picture img[data-src] {
