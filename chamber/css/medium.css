@@ -63,7 +63,7 @@
     font-size: larger;
     grid-column: 1/ -1;
   }
-  main.discover picture:hover{
+  main.discover figure:hover{
     transform: translate(4px, -4px);
     box-shadow: 0 0 50px #333;
   }

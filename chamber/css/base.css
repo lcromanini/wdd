@@ -218,26 +218,25 @@ ul.navigation.responsive a:hover{
 main.discover{
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 25px;
   justify-items: center;
   align-items: center;
   padding-bottom: 20px;
 }
 
-main.discover picture{
+main.discover figure{
   max-width: 300px;
 }
 
-main.discover picture p{
+main.discover figure figcaption{
   font-family: "Montserrat";
   font-size: medium;
 }
 
-main.discover picture img[data-src] {
+main.discover figure img[data-src] {
   filter: blur(0.2em);
 }
 
-main.discover picture img {
+main.discover figure img {
   filter: blur(0em);
   transition: filter 0.3s;
   width: 300px; height: 200px; 
