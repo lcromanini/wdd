@@ -123,6 +123,14 @@
     grid-row: 7;
   }
 
+  main.form h2, main.thank-you h2{
+    grid-column: 1/-1;
+  }
+
+  main.form form{
+    grid-column: 1/2;
+  }
+ 
   footer {
     display: grid;
     grid-template-columns: 60px 60px;

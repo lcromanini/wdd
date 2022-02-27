@@ -242,9 +242,141 @@ main.discover figure img {
   width: 300px;
 }
 
-main.discover h2{
+main.discover h2, main.form h2, main.thank-you h2{
   color:#0f3c43;
 }
+
+
+form {
+  padding: 1rem 0;
+  max-width: 450px;
+}
+fieldset {
+  border: solid 2px black;
+  border-radius: 5px;
+  margin-bottom: 1.25rem;
+}
+fieldset legend {
+  padding: 0.25rem;
+  font-family: "Montserrat";
+}
+form label {
+  font-family: "Montserrat";
+}
+form div label {
+  font-size: 1rem;
+}
+form label, form div {
+  margin-top: 1rem;
+  padding-bottom: 0.3rem;
+}
+form label span {
+  color: red;
+}
+div label {
+  margin-top: 0;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+div input + label {
+  padding-top: 0;
+}
+form input:not([type="range"]), form select, form textarea {
+  outline: none;
+  box-shadow: 0 0 0 7px transparent;
+  transition: box-shadow 0.3s;
+}
+form input:not([type="range"]):not([type="radio"]):focus, form select:focus, form textarea:focus {
+  box-shadow: 0 0 0 3px black;
+}
+form label, form input, form select, form textarea {
+  display: block;
+  width: 100%;
+}
+form input {
+  margin-top: 5px;
+  width: calc(100% - 0.75rem * 2);
+  padding: 0.75rem;
+}
+form input[type="range"] {
+  width: 100%;
+  padding: 0;
+}
+form select {
+  margin-top: 5px;
+  padding: 0.75rem;
+}
+form input, form select, form textarea {
+  background-color: #fdfcfc;
+  border: solid 1px black;
+  border-radius: 4px;
+}
+form input[type="submit"] {
+  background-color: #0f3c43;
+  color: #0ab6ff;
+  font-family: "Montserrat";
+
+  text-shadow: 1px 1px 1px black;
+  width: 100%;
+  margin-top: 10px;
+}
+form input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: #ffcc57;
+  color: #0f3c43;
+  
+}
+form textarea {
+  width: calc(100% - 5px);
+  height: 4em;
+  margin-top: 5px;
+}
+form input:required:not(:valid) {
+  box-shadow: inset 0 0 0 2px red, 0 0 0 7px transparent;
+  transition: box-shadow 0.3s;
+}
+
+form input:required:not(:valid):focus {
+  box-shadow: inset 0 0 0 2px red, 0 0 0 4px transparent;
+  transition: box-shadow 0.3s;
+} 
+form div.split {
+  display: grid;
+  grid-template-columns: auto 30px;
+  justify-items: center;
+  align-items: center;
+}
+form div.split span {
+  grid-column: 1 / -1;
+  justify-self: start;
+}
+form div.split label {
+  text-align: center;
+  margin-top: 0;
+  padding: 6px;
+  width: 15px;
+}
+form div.split input {
+  margin-top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
   font-family: "Montserrat";
