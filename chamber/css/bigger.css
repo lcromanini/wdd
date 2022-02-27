@@ -23,9 +23,7 @@
 	font-size:1em; 
   }
 
-  header img {
-    width: 100%;
-  }
+ 
 
   .headings h1 {
     font-size: 2.5rem;
@@ -48,7 +46,17 @@
 
   .social{
     height: auto;
-    display: flex;
+    /* display: flex; */
+  }
+
+  
+
+  .fb{
+    margin-right: 0.6em;
+  }
+  
+  .linkedin{
+    margin-left: 0.6em;
   }
 
   .navigation a {
@@ -121,7 +129,7 @@
   }
 
   footer p {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .adress {

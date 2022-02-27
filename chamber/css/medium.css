@@ -18,6 +18,18 @@
     display: flex;
   }
 
+  .social img{
+    border-radius: 1em;
+  }
+
+  .fb{
+    margin-right: 0.4em;
+  }
+  
+  .linkedin{
+    margin-left: 0.4em;
+  }
+
   header{
     display: grid;
   }
@@ -116,7 +128,7 @@
     grid-template-columns: 60px 60px;
   }
   footer p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 
   .info {
