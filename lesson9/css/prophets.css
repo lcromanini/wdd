@@ -1,0 +1,55 @@
+
+* {
+    font-family: "Montserrat", "Lato", "open Sans";
+}
+h1, h2{
+    font-family: "IM Fell French Canon SC", serif;
+    color: #F4B400
+}
+
+header, footer {
+    text-align: center;
+}
+footer {
+    padding-top: 15px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    padding: 1rem;
+    background-color: #aaa7a7;
+    box-shadow: 0 0 30px rgb(170, 168, 168);
+    justify-items: center;
+}
+
+.cards section {
+    text-align: center;
+    padding: 1rem;
+    border: solid 2px #face55;
+    background-color: #5895f8;
+    max-width: 300px;
+}
+.cards section * {
+    display: block;
+    margin: 0 auto;
+    padding: 0.25rem;
+}
+.cards section img {
+    width: 60%;
+}
+
+@media screen and (max-width: 1100px) {
+    .cards {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 600px) {
+    body {
+        margin: 0;
+    }
+    .cards {
+        grid-template-columns: 1fr;
+    }
+}
