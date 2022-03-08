@@ -263,6 +263,10 @@ fieldset legend {
 form label {
   font-family: "Montserrat";
 }
+
+.membership_level{
+  display: none;
+}
 form div label {
   font-size: 1rem;
 }

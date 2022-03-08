@@ -130,6 +130,10 @@
   main.form form{
     grid-column: 1/2;
   }
+
+  .membership_level{
+    display: block;
+  }
  
   footer {
     display: grid;

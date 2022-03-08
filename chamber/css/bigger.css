@@ -13,10 +13,8 @@
   header{
     display: grid;
   }
- 
-
-  main p{
-	  font-size:0.8em;
+  .membership_level{
+    display: block;
   }
 
   main h3,h4{
