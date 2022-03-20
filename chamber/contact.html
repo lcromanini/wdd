@@ -18,7 +18,7 @@
   <title>Ceilandia Business Chamber</title>
   <meta
     name="description"
-    content="This is the Ceilandia Business Chamber. Here you can find content related to the Ceilandia region. "
+    content="This is the Ceilandia Business Cahmber Home Page. Here you can find content related to the Ceilandia region. "
   />
   </head>
   <body>
@@ -34,67 +34,52 @@
         <nav>
               <ul class="navigation">
                   <li><a class="ham" href="#">&#9776; Menu</a></li>
-                  <li><a href="#">Home</a></li>
+                  <li><a href="index.html">Home</a></li>
                   <li><a href="discover.html">Discover</a></li>
                   <li><a href="directory.html">Directory</a></li>
                   <li><a href="join.html">Join</a></li>
-                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="#">Contact</a></li>
               </ul>
           </nav>
         <div class="social">
           <a href="https://facebook.com" target="_blank">
             <img class="fb" src="images/facebook.webp" alt="Facebook Icon"/></a>
           <a href="https://linkedin.com" target="_blank">
-            <img  class="linkedin" src="images/linkedin.webp" alt="Linkedin Icon"/></a>     
+            <img class="linkedin" src="images/linkedin.webp" alt="Linkedin Icon"/></a>     
         </div>
         <div class="date">
-          <h2>.:|:. <span id="date-time"></span> .:|:.</h2>
-        </div>
+            <h2>.:|:. <span id="date-time"></span> .:|:.</h2>
+          </div>
       </header>
-      <main>
-      <div id="event">
-        <h3 >Event</h3>
-        <p>
-          Join us at our next skateboarding event. February 22 at 3 pm in the city center.</p>
-      </div>
-      <div id="weather">
-        <h3>Weather</h3>
-        <p><span class="temperature">33</span> °C</p>
-        <p>Wind Speed: <span class="wind_speed">2.5</span> km/h </p>
-        <p>Wind Chill: <span class="wind_chill"></span></p>
-      </div>
-      <div id="join">
-        <p>Discover how to join the chamber of commerce and how it will benefit your organization</p>
-      </div>
-      <div id="hero">
-      <h3 class="stats" >Welcome to Ceilandia!</h3>
-        <picture class="photo">
-          <source media="(max-width:400px)" srcset="images/ceilandia400.webp">
-          <source media="(max-width:800px)" srcset="images/ceilandia800.webp">
-          <source media="(max-width:1100px)" srcset="images/ceilandia1100.webp">
-          <img id="img_hero" src="images/ceilandia1100.webp" alt="City of Ceilandia.">
-        </picture>
-      </div>
-      <div id="updates">
-        <h3>News Release</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus laborum repellat voluptatibus nisi veniam suscipit, excepturi aliquid consequuntur maiores vitae eligendi necessitatibus.</p>
-      </div>
-      <div id="local1">
-        <h3>Safety Transport</h3>
-        <h4>Move with Safety</h4>
-        <p>We are ready to help you!</p>
-        <p>Call 8263254365</p>
-      </div>
-      <div id="local2">
-        <h3>Ceilandia Movie Theater</h3>
-        <h4>Watch the latest releases!</h4>
-        <p>Buy tickets now!</p>
-      </div>
-      <div id="local3">
-        <h3>The Bakery</h3>
-        <h4>We have everything you can think of.</h4>
-        <p>Seriously, try it!</p>
-      </div>
+      <main class="form">
+        <h2>CONTACT US!</h2>
+        <form action="thankyou.html">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label>Full Name<span>*</span>
+                    <input name="fname" type="text" required>
+                </label>
+                <label>E-mail
+                    <input name="email" type="email" placeholder="YourEmailHere@gmail.com">
+                </label>
+                <label>Phone Number<span>*</span>
+                    <input name="phone" type="tel" required>
+                </label>
+                <label>Message:
+                <textarea name="b-description"></textarea>
+                </label>
+            </fieldset>
+            <input type="submit" value="Send">
+        </form>
+        <div class="membership_level">
+          <h2>Our contact:</h2>
+          <p>+(55) 3333-3333</p>
+          <p>ceilandiabusinesschamber.com</p>
+          <p>Street 6 #22, Ceilandia, Brazil</p>
+          
+        </div>
+        
+        <h2>You visited this page <span class="visits"></span> days ago</h2>
       </main>
       <footer>
         <img src="images/web-site-logo3.webp" alt="Ceilandia Business ChamberLogo">
@@ -113,6 +98,7 @@
       </footer>
     </div>
     <script src="js/ham_date.js"></script>
-    <script src="js/windchill.js"></script>
+    <script src="js/progressive-loading.js"></script>
+    <script src="js/website_visits.js"></script>
   </body>
 </html>

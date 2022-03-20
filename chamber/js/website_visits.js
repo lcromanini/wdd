@@ -1,18 +1,18 @@
 /*JS to display the amount of time in days (rounded to a whole number) between user 
 visits to this page by the user's agent (browser). */
 
-const visit = document.querySelector(".visits");
+localStorage.setItem('lastVisit', Date.now());
 
 const lastVisit = localStorage.getItem("lastVisit");
 
-const factor = 1000 * 60 * 60 * 24;
+const visit = document.querySelector(".visits");
 
-let daysBetween = Date.now() - lastVisit;
+const FACTOR = 1000 * 60 * 60 * 24;
 
-let numberOfDays = daysBetween/factor;
+const daysBetween = Date.now() - lastVisit;
+
+const numberOfDays = daysBetween/FACTOR;
 
 roundedNumber = Math.round(numberOfDays)
-
-localStorage.setItem('lastVisit', Date.now());
 
 visit.textContent = roundedNumber;
