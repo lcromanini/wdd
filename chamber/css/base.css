@@ -242,7 +242,7 @@ main.discover figure img {
   width: 300px;
 }
 
-main.discover h2, main.form h2, main.thank-you h2{
+main.discover h2, main.form h2, main.thank-you h2, main.directory h2{
   color:#0f3c43;
 }
 
@@ -364,7 +364,75 @@ form div.split input {
   margin-top: 0;
 }
 
+.directory {
+  text-align: center;
+}
 
+.list-view img, .card-view section h2 {
+  display: none;
+}
+
+.list-view section h2 {
+  display: block;
+}
+
+.list-view section {
+  display: block;
+  grid-template-columns: 1fr;
+  border: 1px black solid;
+}
+
+.list-view section p1 {
+display: none;
+}
+
+.list-view section p2 {
+  display: none;
+  }
+
+.card-view img{
+  display: block;
+  width: 250px;
+  margin: auto;
+}
+
+.card-view section h2 {
+  display: block;
+}
+
+.card-view {
+  display: grid;
+  grid-template-columns: 1fr;
+  
+}
+.card-view section {
+  padding: .3em;
+  margin: .3em;
+  border: 1px black solid;
+}
+
+
+.list-view-btn button {
+  padding:.6rem 3.9rem;
+  background-color: #0f3c43;
+  color:#ffcc57;
+  border: 2px #ffcc57 solid;
+  border-radius: 10px;
+  margin: .2em;
+  
+}
+
+.list-view section:nth-child(2n) {
+  background: #0ab6ff;
+  
+}
+  .card-view section p{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    vertical-align: center;
+    color: black; 
+    }
 
 
 

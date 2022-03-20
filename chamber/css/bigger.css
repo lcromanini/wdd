@@ -65,9 +65,6 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  /* main.discover h3{
-    grid-column: 1/ -1;
-  } */
 
   main.discover figure{
     margin:0;
@@ -151,5 +148,20 @@
     grid-column: 1/6;
     grid-row: 2;
     text-align: center;
+  }
+
+  .card-view {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .list-view section h2{
+    display: flex;
+  }
+  .list-view section {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .directory{
+    grid-column: 1/4;
+    
   }
 }

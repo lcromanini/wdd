@@ -1,0 +1,88 @@
+{
+  "businesses": [
+    {
+      "name": "Viva La Festa",
+      "address": "R. 02 Lt 35, Centro, Distrito Federal 7200000",
+      "phone": "(61) 3333-3333",
+      "website": "www.vivalafesta.com",
+      "imgfile": "images/festas.webp"
+    },
+    {
+      "name": "Oticas Ceilandia",
+      "address": "R. 05 Lt 33, Centro, Distrito Federal 7200000",
+      "phone": "(61) 3334-2224",
+      "website": "www.oticasceilandia.com",
+      "imgfile": "images/glass.webp"
+    },
+    {
+      "name": "General Motors",
+      "address": "R. 12 Lt 05, Centro, Distrito Federal 7200000",
+      "phone": "(61) 3334-2324",
+      "website": "www.ceilandiamotorsgn.com",
+      "imgfile": "images/mecanica.webp"
+    },
+    {
+      "name": "Padaria Tony's Cei",
+      "address": "R. 14 Lt 39, Centro, Distrito Federal 7200000",
+      "phone": "(61) 3334-2224",
+      "website": "www.padariatonys.com",
+      "imgfile": "images/padaria.webp"
+    },
+    {
+      "name": "Açaí da Terra",
+      "address": "R. 14 Lt 01, Centro, Distrito Federal 7200000",
+      "phone": "(61) 3321-2524",
+      "website": "www.daterraacai.com",
+      "imgfile": "images/acai.webp"
+    },
+    {
+      "name": "John Barber CEI",
+      "address": "R. 06 Lt 02, Centro, Distrito Federal 7200000",
+      "phone": "(61) 3234-4444",
+      "website": "www.abarberdopedaco.com",
+      "imgfile": "images/barbershop.webp"
+    },
+    {
+      "name": "Ciclista Modern",
+      "address": "R. 44 Lt 13, Centro, Distrito Federal 7200000",
+      "phone": "(61) 3111-1114",
+      "website": "www.ciclistamodern.com",
+      "imgfile": "images/bikes.webp"
+    },
+    {
+      "name": "Bomba da Galera",
+      "address": "R. 02 Lt 34, Centro, Distrito Federal 7200000",
+      "phone": "(61) 3334-2333",
+      "website": "www.obombadagalera.com",
+      "imgfile":"images/bomba.webp"
+    },
+    {
+      "name": "Shot and Run",
+      "address": "R. 13 Lt 11, Centro, Distrito Federal 7200000",
+      "phone": "(61) 3336-9999",
+      "website": "www.shotandrunpaintball.com",
+      "imgfile": "images/paintball.webp"
+    },
+    {
+      "name": "Seu Restaurante",
+      "address": "R. 08 Lt 55, Centro, Distrito Federal 7200000",
+      "phone": "(61) 3734-2277",
+      "website": "www.seurestaurante.com",
+      "imgfile": "images/restaurante.webp"
+    },
+    {
+      "name": "Caramelo Pet Shop",
+      "address": "R. 01 Lt 16, Centro, Distrito Federal 7200000",
+      "phone": "(61) 3322-2233",
+      "website": "www.petshopcaramelo.com",
+      "imgfile": "images/petshop.webp"
+    },
+    {
+      "name": "Samuka Grill",
+      "address": "R. 08 Lt 22, Centro, Distrito Federal 7200000",
+      "phone": "(61) 3234-2294",
+      "website": "www.grillsamuka.com",
+      "imgfile": "images/samukagrill.webp"
+    }
+  ]
+}
